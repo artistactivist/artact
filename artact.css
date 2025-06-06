@@ -18,6 +18,15 @@
   }
 }
 
+.navbar-links .button {
+  padding: 0;
+}
+
+.page-header .logo {
+  margin: 0 auto 0.5rem;
+  max-width: 81.5em;
+}
+
 main.video {
   max-width: min(100% - 15vw, 60em);
 }
@@ -56,22 +65,9 @@ main.videos {
   max-width: min(100% - 15vw, 45em);
 }
 
-@media (max-width: 720px) {
-  main.video,
-  main.videos {
-    max-width: min(100%, 81.5em);
-  }
-
-  .video-description,
-  .video-title {
-    display: block;
-    padding-inline: 7.5vw;
-  }
-}
-
 .video-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(480px, 640px));
   margin: 1rem 0;
   padding: 0;
   column-gap: 24px;
@@ -80,7 +76,6 @@ main.videos {
   li {
     list-style: none;
     margin: 0 auto;
-    max-width: 640px;
   }
 }
 
@@ -110,6 +105,25 @@ main.videos {
 .fluid-width-video-wrapper lite-youtube,
 .video figure {
   max-width: 1280px;
+}
+
+@media (max-width: 720px) {
+  main.video,
+  main.videos {
+    max-width: min(100%, 81.5em);
+  }
+
+  .video-description,
+  .video-description p,
+  .video-title,
+  .videos .videos-header {
+    display: block;
+    padding-inline: 7.5vw;
+  }
+
+  .video-list {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 640px));
+  }
 }
 
 /* FitVids */

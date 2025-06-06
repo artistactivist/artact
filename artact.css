@@ -114,8 +114,6 @@ main.videos {
   }
 
   .video-description,
-  .video-description p,
-  .video-title,
   .videos .videos-header {
     display: block;
     padding-inline: 7.5vw;

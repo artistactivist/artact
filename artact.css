@@ -1,0 +1,150 @@
+:root {
+  --font-bold: 700;
+}
+
+[data-theme="dark"] .navbar-home,
+[data-theme="dark"] .page-header .logo {
+  filter: invert(1) brightness(2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar-home,
+  .page-header .logo {
+    filter: invert(1) brightness(2);
+  }
+  [data-theme="light"] .navbar-home,
+  [data-theme="light"] .page-header .logo {
+    filter: unset;
+  }
+}
+
+main.video {
+  max-width: min(100% - 15vw, 60em);
+}
+
+main.videos {
+  max-width: min(100% - 15vw, 81.5em);
+}
+
+.videos.body-home {
+  padding-block-start: 0;
+}
+
+.page-title,
+.post-title {
+  text-transform: uppercase;
+}
+
+.blurb,
+.postList,
+.videos .searchbar {
+  margin: 0 auto;
+}
+
+.blurb {
+  max-width: min(100% - 15vw, 37.75em);
+  margin-block-end: var(--row-gap-small);
+}
+
+.videos .postList {
+  margin-block-start: var(--row-gap-small);
+}
+
+.videos .searchbar,
+.videos .postList {
+  margin-block-start: var(--row-gap-small);
+  max-width: min(100% - 15vw, 45em);
+}
+
+@media (max-width: 720px) {
+  main.video,
+  main.videos {
+    max-width: min(100%, 81.5em);
+  }
+
+  .video-description,
+  .video-title {
+    display: block;
+    padding-inline: 7.5vw;
+  }
+}
+
+.video-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  margin: 1rem 0;
+  padding: 0;
+  column-gap: 24px;
+  row-gap: var(--row-gap-small);
+  justify-content: center;
+  li {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 640px;
+  }
+}
+
+.video figure,
+.video h1,
+.videos-header .body,
+.videos-header h1,
+.video-list figure,
+.video-description,
+.video-list h2 {
+  margin-block: 1rem;
+  margin-inline: 0;
+}
+
+.video-description {
+  display: block;
+}
+
+.videos-header h1 {
+  text-wrap: balance;
+  font: var(--font-display);
+  letter-spacing: var(--font-display-spacing);
+  margin-block-start: 0;
+  text-transform: uppercase;
+}
+
+.fluid-width-video-wrapper lite-youtube,
+.video figure {
+  max-width: 1280px;
+}
+
+/* FitVids */
+
+.fluid-width-video-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  padding-top: 56.25%;
+  z-index: 2;
+}
+
+.fluid-width-video-wrapper.four-three {
+  padding-top: 75%;
+}
+
+.fluid-width-video-wrapper lite-youtube,
+.fluid-width-video-wrapper iframe,
+.fluid-width-video-wrapper object,
+.fluid-width-video-wrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

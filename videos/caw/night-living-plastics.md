@@ -1,0 +1,13 @@
+---
+title: Night of the Living Plastics - Californians Against Waste
+order: 8
+id: uNPc0PUHYlo
+series:
+  - CAW
+---
+
+The mountain of discarded, single-use plastic items we leave behind comes back
+to life as zombie trash to haunt our dreams and inspire us to adopt more
+sustainable, reusable solutions. Created for
+<a href="https://www.cawrecycles.org">Californians Against Waste</a>. Music
+&amp; Lyrics by Clifford J. Tasner, Animation by Cole&nbsp;Montminy

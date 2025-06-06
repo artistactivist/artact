@@ -1,0 +1,19 @@
+lang: en
+home:
+  welcome: "Artist Activist"
+  intro: "A creative studio advocating for positive change"
+  posts_title: "Latest Updates"
+
+copyright: "&copy; 2021-2025 Artist Activist LLC"
+
+logo: /img/artist-activist-sq-trans.svg
+logo_height: 48
+
+menu_links: []
+metas:
+  site: Artist Activist
+  description: Creative studio advocating for positive change
+  title: =title
+  image: =image
+  lang: en
+  generator: false

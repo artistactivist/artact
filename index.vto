@@ -1,0 +1,88 @@
+---
+layout: layouts/base.vto
+bodyClass: body-home
+title: Home
+---
+
+<link rel="stylesheet" href="/lyt/lite-yt-embed.css">
+
+<header class="page-header center">
+  <h1 class="page-title visually-hidden">{{ home.welcome }}</h1>
+  <figure class="logo wide">
+    <img
+      src="/img/artist-activist-trans.svg"
+      height="293"
+      alt="{{ metas.site }}"
+      title="{{ metas.site }}"
+    />
+  </figure>
+  <div class="page-subtitle body">{{ home.intro |> md }}</div>
+</header>
+
+<main class="videos {{ it.bodyClass }}">
+  <section class="blurb body mbe-m">
+    <p>
+      Wherever your vision leads, we provide a complete project pipeline
+      covering all aspects of production. Our specialists will guide you with
+      our decades of combined experience across fine arts, entertainment,
+      advertising, technology, civic engagement, and charitable nonprofits.
+    </p>
+    <p>
+      We are multi-lingual and have produced campaigns in Spanish, Mandarin,
+      Cantonese, Vietnamese, Tagalog, Korean, Armenian and Farsi, reaching
+      elusive, traditionally overlooked audiences. We charge a fraction of what
+      any other production company or ad firm would, because we are activists
+      who devote our talents to innovative causes willing to tackle complex
+      issues with memorable messaging.
+    </p>
+  </section>
+  <section class="media-gallery">
+    {{ include "templates/video-list.vto" }}
+  </section>
+  <section class="postList">
+    <h2 class="post-title">{{ home.posts_title }}</h2>
+    <br>
+    {{ for post of search.pages("type=post", "date=desc", 3) }}
+      <article class="post">
+        <header class="post-header">
+          <h2 class="post-title">
+            <a
+              href="{{ post.url }}"
+              {{ if post.url == url }}
+                aria-current="page"{{ /if }}
+            >
+              {{ post.title || post.url }}
+            </a>
+          </h2>
+
+          {{
+            include "templates/post-details.vto" {
+              date: post.date,
+              tags: post.tags,
+              author: post.author,
+              readingInfo: post.readingInfo,
+            }
+          }}
+        </header>
+
+        <div class="post-excerpt body">
+          {{ post.excerpt |> md }}
+        </div>
+
+        <p>
+          <a href="{{ post.url }}" class="post-link">
+            {{ i18n.nav.continue_reading }}
+          </a>
+        </p>
+      </article>
+    {{ /for }}
+  </section>
+
+  <section class="searchbar">
+    <hr>
+    <p>{{ i18n.nav.archive |> md }}</p>
+    <div class="search" id="search"></div>
+  </section>
+</main>
+
+<script defer src="/lyt/lite-yt-embed.js"></script>

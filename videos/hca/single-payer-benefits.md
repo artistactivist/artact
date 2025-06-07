@@ -1,6 +1,6 @@
 ---
 title: Single Payer Benefits - Health Care for All - California
-order: 18
+order: 20
 id: 0IB6WHAH2hI
 series:
   - HCA

@@ -1,16 +1,16 @@
 ---
-title: Atención médica de un solo pagador Beneficios - Health Care for All - California
-order: 19
-id: NG-BFaNuH6k
+title: Atención médica de un solo pagador Seguros - Health Care for All - California
+order: 15
+id: 0Ffu76TsMD4
 series:
   - HCA
 ---
 
 For <a href="https://healthcareforall.org/">Health Care for All -
-California</a>, this video explains the benefits Single Payer will have to
-seniors: Atención médica de un solo pagador proporciona beneficios aún más
-completos que Medicare, y mejorará el acceso y reducirá los costos al reunir los
-fondos estatales y federales. Visite
+California</a>, this video counters insurance companies bogus claim that
+Americans prefer private insurance plans: Atención médica de un solo pagador
+significa que no habrá más interferencias de las compañías de seguros en nuestra
+sanidad. Visite
 <a href="https://atencionmedicaparatodos.org">atencionmedicaparatodos.org</a>
 para saber más y unirse al movimiento. Directed by Hector Ceballos, Written by
 Clifford J. Tasner, Produced by Clifford J. Tasner and Ricky de Laveaga,

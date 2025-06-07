@@ -1,6 +1,6 @@
 ---
 title: Atención médica de un solo pagador Beneficios - Health Care for All - California
-order: 18
+order: 17
 id: NG-BFaNuH6k
 series:
   - HCA

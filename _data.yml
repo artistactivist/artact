@@ -8,6 +8,7 @@ copyright: "&copy; 2021-2025 Artist Activist LLC"
 
 logo: /img/artist-activist-sq-trans.svg
 logo_height: 48
+og_img: https://artact.io/img/artist-activist-3840x1920.png
 
 menu_links: []
 metas:
@@ -16,4 +17,5 @@ metas:
   title: =title
   image: =image
   lang: en
-  generator: false
+  fediverse: "@artact@mastodon.social"
+  generator: true

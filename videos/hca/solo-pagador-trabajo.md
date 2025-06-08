@@ -2,6 +2,8 @@
 title: Atención médica de un solo pagador Trabajo - Health Care for All - California
 order: 17
 id: 0Ffu76TsMD4
+cause:
+  - Health
 series:
   - HCA
 ---

@@ -2,6 +2,8 @@
 title: Cosas Buenas (Nice Things) - Daniel Lee for SD30
 order: 3
 id: XMKUyrShEs0
+cause:
+  - Campaigns
 series:
   - Lee
 ---

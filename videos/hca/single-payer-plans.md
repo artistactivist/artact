@@ -1,7 +1,9 @@
 ---
 title: Single Payer Plans - Health Care for All - California
-id: Y49ip37NPKk
+id: lcD-G9YsIZg
 order: 16
+cause:
+  - Health
 series:
   - HCA
 ---

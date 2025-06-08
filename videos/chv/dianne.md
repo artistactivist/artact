@@ -2,6 +2,9 @@
 title: Dianne - Climate Hawks Vote
 order: 4
 id: 3WxOC0IpHJc
+cause:
+  - Campaigns
+  - Environment
 series:
   - CHV
 ---

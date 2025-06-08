@@ -2,6 +2,8 @@
 title: Muttahidoon (United) متحدون - Bernie Sanders
 order: 9
 id: KOhceL76OIQ
+cause:
+  - Campaigns
 series:
   - Bernie
 ---

@@ -2,6 +2,8 @@
 title: The Middleman - California Nurses Association
 order: 13
 id: DNum9EY4YlE
+cause:
+  - Health
 series:
   - CNA
 ---

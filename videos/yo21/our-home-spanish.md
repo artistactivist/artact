@@ -2,6 +2,8 @@
 title: Este es nuestro hogar (This Is Our Home) - Yes on 21
 id: IilXrtDCmNI
 order: 7
+cause:
+  - Campaigns
 series:
   - Yo21
 ---

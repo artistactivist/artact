@@ -2,6 +2,9 @@
 title: Unidos (United) - Bernie Sanders
 order: 11
 id: l_SfMRe9l-0
+featured: true
+cause:
+  - Campaigns
 series:
   - Bernie
 ---

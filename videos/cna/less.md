@@ -2,6 +2,9 @@
 title: Less - California Nurses Association
 order: 14
 id: 91JdDS_A6F8
+featured: true
+cause:
+  - Health
 series:
   - CNA
 ---

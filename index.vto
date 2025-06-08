@@ -37,7 +37,40 @@ image: https://artact.io/img/artist-activist-3840x1920.png
     </p>
   </section>
   <section class="media-gallery">
-    {{ include "templates/video-list.vto" }}
+    <h2 class="post-title">Featured Videos</h2>
+    <p>Visit the <a href="/videos/">Videos</a> page for more.</p>
+    <ul class="video-list">
+      {{
+        for video of search.pages("type=video featured=true index!=true", "order=desc")
+      }}
+        <li>
+          <figure class="video">
+            <div class="fluid-width-video-wrapper">
+              <lite-youtube
+                videoid="{{ video.id }}"
+                style="background-image: url('https://i.ytimg.com/vi/{{ video.id }}/hqdefault.jpg')"
+              >
+                <a
+                  href="https://youtube.com/watch?v={{ video.id }}"
+                  class="lyt-playbtn"
+                  title="Play Video"
+                >
+                  <span class="lyt-visually-hidden">Play Video: {{
+                      video.title
+                    }}</span>
+                </a>
+              </lite-youtube>
+            </div>
+            <figcaption class="video-description">
+              <a href="{{ video.url }}" class="video-title">
+                <h2 class="display">{{ video.title }}</h2>
+              </a>
+              {{ video.content |> md }}
+            </figcaption>
+          </figure>
+        </li>
+      {{ /for }}
+    </ul>
   </section>
   <section class="postList">
     <h2 class="post-title">{{ home.posts_title }}</h2>

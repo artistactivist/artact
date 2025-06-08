@@ -2,6 +2,8 @@
 title: Works for Me - Daniel Lee for SD30
 order: 1
 id: fJ4FkM722TM
+cause:
+  - Campaigns
 series:
   - Lee
 ---

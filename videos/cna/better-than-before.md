@@ -2,6 +2,8 @@
 title: Better Than Before - California Nurses Association
 order: 12
 id: N6mPCnquJJM
+cause:
+  - Health
 series:
   - CNA
 ---

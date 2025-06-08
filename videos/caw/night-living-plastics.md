@@ -2,6 +2,9 @@
 title: Night of the Living Plastics - Californians Against Waste
 order: 8
 id: uNPc0PUHYlo
+featured: true
+cause:
+  - Environment
 series:
   - CAW
 ---

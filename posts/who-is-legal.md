@@ -1,7 +1,7 @@
 ---
 title: Who Is and Isn’t “Legal”
 date: '2025-06-15T20:15:00.000Z'
-author: Ricky de Laveaga
+author: Cliff Tasner
 tags:
   - ICE
   - Immigration
@@ -15,6 +15,8 @@ history. In the mid-1800s, the Know-Nothing Party was created to stoke fears of
 the Irish Catholics who had fled famine to come here. And a couple of decades
 later, the Chinese Exclusion Act was passed to protect America from the growing
 “yellow peril.”
+
+<!--more-->
 
 My grandparents, Eastern European Jews, fled waves of pogroms to come to the New
 World before WWI. They both came to Canada, because they each had family there,

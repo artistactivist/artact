@@ -7,6 +7,7 @@ tags:
   - Immigration
   - Law
   - Trump
+description: Thinking about immigration in the wake of the repressive ICE raids
 draft: false
 ---
 
@@ -14,7 +15,7 @@ There has been a strong nativist streak in the United States for much of our
 history. In the mid-1800s, the Know-Nothing Party was created to stoke fears of
 the Irish Catholics who had fled famine to come here. And a couple of decades
 later, the Chinese Exclusion Act was passed to protect America from the growing
-“yellow peril.”
+“yellow&nbsp;peril.”
 
 <!--more-->
 

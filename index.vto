@@ -37,8 +37,10 @@ image: https://artact.io/img/artist-activist-3840x1920.png
     </p>
   </section>
   <section class="media-gallery">
-    <h2 class="post-title">Featured Videos</h2>
-    <p>Visit the <a href="/videos/">Videos</a> page for more.</p>
+    <header class="videos-header">
+      <h2 class="post-title">Featured Videos</h2>
+      <p>Visit the <a href="/videos/">Videos</a> page for more.</p>
+    </header>
     <ul class="video-list">
       {{
         for video of search.pages("type=video featured=true index!=true", "order=desc")

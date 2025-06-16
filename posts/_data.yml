@@ -1,0 +1,7 @@
+type: post
+layout: layouts/post.vto
+basename: /
+
+metas:
+  title: "=title"
+  description: "=description"

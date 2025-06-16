@@ -5,10 +5,11 @@ author: Ricky de Laveaga
 tags:
   - ArtAct
   - Xeo
+description: ArtAct.io is now powered by Xeo
 draft: false
 ---
 
-Our website just got a whole lot cooler, thanks to open source 📖
+Our website just got a whole lot cooler, thanks to open&nbsp;source&nbsp;📖
 
 <!--more-->
 

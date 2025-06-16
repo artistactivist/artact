@@ -5,6 +5,7 @@ author: Ricky de Laveaga
 tags:
   - ArtAct
   - Xeo
+description: ArtAct.io is now powered by Xeo
 draft: false
 ---
 

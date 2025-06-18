@@ -24,7 +24,7 @@
 
 .page-header .logo {
   margin: 0 auto 0.5rem;
-  max-width: 81.5em;
+  max-width: 60em;
 }
 
 main.video {
@@ -110,7 +110,7 @@ main.videos {
 @media (max-width: 720px) {
   main.video,
   main.videos {
-    max-width: min(100%, 81.5em);
+    max-width: min(100%, 60em);
   }
 
   .video-description,

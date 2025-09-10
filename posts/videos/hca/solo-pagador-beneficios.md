@@ -2,10 +2,6 @@
 title: Atención médica de un solo pagador Beneficios - Health Care for All - California
 order: 19
 id: NG-BFaNuH6k
-cause:
-  - Health
-series:
-  - HCA
 ---
 
 For <a href="https://healthcareforall.org/">Health Care for All -

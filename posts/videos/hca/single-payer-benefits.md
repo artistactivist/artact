@@ -2,10 +2,6 @@
 title: Single Payer Benefits - Health Care for All - California
 order: 20
 id: 0IB6WHAH2hI
-cause:
-  - Health
-series:
-  - HCA
 ---
 
 For <a href="https://healthcareforall.org/">Health Care for All -

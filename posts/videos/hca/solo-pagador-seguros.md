@@ -2,10 +2,6 @@
 title: Atención médica de un solo pagador Seguros - Health Care for All - California
 order: 15
 id: dg82Tpz9Cso
-cause:
-  - Health
-series:
-  - HCA
 ---
 
 For <a href="https://healthcareforall.org/">Health Care for All -

@@ -3,10 +3,6 @@ title: Single Payer Jobs - Health Care for All - California
 id: Y49ip37NPKk
 order: 18
 featured: true
-cause:
-  - Health
-series:
-  - HCA
 ---
 
 For <a href="https://healthcareforall.org/">Health Care for All -

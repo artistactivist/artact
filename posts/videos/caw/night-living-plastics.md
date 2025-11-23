@@ -3,10 +3,9 @@ title: Night of the Living Plastics - Californians Against Waste
 order: 8
 id: uNPc0PUHYlo
 featured: true
-cause:
-  - Environment
-series:
+tags:
   - CAW
+  - Environment
 ---
 
 The mountain of discarded, single-use plastic items we leave behind comes back

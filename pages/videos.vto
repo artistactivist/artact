@@ -1,5 +1,6 @@
 ---
 layout: layouts/base.vto
+bodyClass: body-videos
 title: Videos
 description: |
   Gallery of videos made by Artist&nbsp;Activist
@@ -12,7 +13,7 @@ menu:
 
 <link rel="stylesheet" href="/lyt/lite-yt-embed.css">
 
-<main class="videos">
+<main class="{{ it.bodyClass }}"">
   <header class="videos-header">
     <h1>{{ title }}</h1>
 

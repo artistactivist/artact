@@ -2,10 +2,9 @@
 title: If You Knew What We Were Putting In Your Food
 order: 5
 id: EAvRUUljA8g
-cause:
+tags:
   - Environment
   - Health
-series:
   - Billionaires
 ---
 

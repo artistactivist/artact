@@ -27,12 +27,12 @@
   max-width: 60em;
 }
 
-main.video {
+main.body-video {
   max-width: min(100% - 15vw, 60em);
 }
 
-main.videos {
-  max-width: min(100% - 15vw, 81.5em);
+main.body-videos {
+  max-width: min(100% - 10vw, 1304px);
 }
 
 .videos.body-home {

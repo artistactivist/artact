@@ -2,11 +2,10 @@
 title: Dianne - Climate Hawks Vote
 order: 4
 id: 3WxOC0IpHJc
-cause:
+tags:
   - Campaigns
-  - Environment
-series:
   - CHV
+  - Environment
 ---
 
 <a href="http://climatehawksvote.com">Climate Hawks Vote PAC</a> hired Clifford

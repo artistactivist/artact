@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.vto
-bodyClass: body-home
+bodyClass: body-videos
 title: Welcome
 image: https://artact.io/img/artist-activist-3840x1920.png
 ---
@@ -19,7 +19,7 @@ image: https://artact.io/img/artist-activist-3840x1920.png
   <div class="page-subtitle body">{{ home.intro |> md }}</div>
 </header>
 
-<main class="videos {{ it.bodyClass }}">
+<main class="{{ it.bodyClass }}">
   <section class="blurb body mbe-m">
     <p>
       Wherever your vision leads, we provide a complete project pipeline
@@ -39,11 +39,11 @@ image: https://artact.io/img/artist-activist-3840x1920.png
   <section class="media-gallery">
     <header class="videos-header">
       <h2 class="post-title">Featured Videos</h2>
-      <p>Visit the <a href="/videos/">Videos</a> page for more.</p>
+      <p>Visit the <a href="/pages/videos/">Videos</a> page for more.</p>
     </header>
     <ul class="video-list">
       {{
-        for video of search.pages("type=video featured=true index!=true", "order=desc")
+        for video of search.pages("category=video featured=true index!=true", "order=desc")
       }}
         <li>
           <figure class="video">

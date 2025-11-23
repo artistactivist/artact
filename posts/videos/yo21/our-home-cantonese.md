@@ -3,10 +3,6 @@ title: This Is Our Home (Cantonese) - Yes on 21
 order: 6
 id: WySSuZ7bFgI
 featured: true
-cause:
-  - Campaigns
-series:
-  - Yo21
 ---
 
 Multilingual ad for the Yes on 21 grassroots coalition supporting Proposition

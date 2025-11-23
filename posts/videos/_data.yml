@@ -1,4 +1,5 @@
-type: video
+type: post
+category: video
 layout: layouts/video.vto
 
 metas:

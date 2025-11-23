@@ -1,5 +1,6 @@
 ---
 title: Atención médica de un solo pagador Beneficios - Health Care for All - California
+date: "2022-07-19T08:16:00.000Z"
 order: 19
 id: NG-BFaNuH6k
 ---

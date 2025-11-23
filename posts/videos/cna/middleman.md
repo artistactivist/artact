@@ -1,5 +1,6 @@
 ---
 title: The Middleman - California Nurses Association
+date: "2019-03-01T10:48:00.000Z"
 order: 13
 id: DNum9EY4YlE
 ---

@@ -1,5 +1,6 @@
 ---
 title: Single Payer Plans - Health Care for All - California
+date: "2023-02-21T15:19:00.000Z"
 id: lcD-G9YsIZg
 order: 16
 ---

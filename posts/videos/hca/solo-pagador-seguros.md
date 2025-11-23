@@ -1,5 +1,6 @@
 ---
 title: Atención médica de un solo pagador Seguros - Health Care for All - California
+date: "2023-02-21T15:18:00.000Z"
 order: 15
 id: dg82Tpz9Cso
 ---

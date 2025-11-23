@@ -1,5 +1,6 @@
 ---
 title: Atención médica de un solo pagador Trabajo - Health Care for All - California
+date: "2022-08-01T19:09:00.000Z"
 order: 17
 id: 0Ffu76TsMD4
 ---

@@ -1,5 +1,6 @@
 ---
 title: Better Than Before - California Nurses Association
+date: "2019-03-01T09:09:00.000Z"
 order: 12
 id: N6mPCnquJJM
 ---

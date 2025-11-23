@@ -1,5 +1,6 @@
 ---
 title: Night of the Living Plastics - Californians Against Waste
+date: "2019-05-29T15:44:00.000Z"
 order: 8
 id: uNPc0PUHYlo
 featured: true

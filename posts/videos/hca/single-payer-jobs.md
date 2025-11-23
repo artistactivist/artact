@@ -1,5 +1,6 @@
 ---
 title: Single Payer Jobs - Health Care for All - California
+date: "2022-08-01T19:10:00.000Z"
 id: Y49ip37NPKk
 order: 18
 featured: true

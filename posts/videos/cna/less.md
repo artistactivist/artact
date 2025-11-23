@@ -1,5 +1,6 @@
 ---
 title: Less - California Nurses Association
+date: "2019-03-01T09:20:00.000Z"
 order: 14
 id: 91JdDS_A6F8
 featured: true

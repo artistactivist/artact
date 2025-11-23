@@ -1,5 +1,6 @@
 ---
 title: Single Payer Benefits - Health Care for All - California
+date: "2022-07-19T08:17:00.000Z"
 order: 20
 id: 0IB6WHAH2hI
 ---

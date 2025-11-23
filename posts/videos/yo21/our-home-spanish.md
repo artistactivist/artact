@@ -1,7 +1,8 @@
 ---
 title: Este es nuestro hogar (This Is Our Home) - Yes on 21
-id: IilXrtDCmNI
+date: "2020-10-04T21:05:00.000Z"
 order: 7
+id: IilXrtDCmNI
 ---
 
 Multilingual ad for the Yes on 21 grassroots coalition supporting Proposition

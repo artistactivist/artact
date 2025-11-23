@@ -1,5 +1,6 @@
 ---
 title: This Is Our Home (Cantonese) - Yes on 21
+date: "2020-10-08T12:04:00.000Z"
 order: 6
 id: WySSuZ7bFgI
 featured: true

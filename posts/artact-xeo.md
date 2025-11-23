@@ -3,9 +3,8 @@ title: Hello ArtAct.io 🧊
 date: '2025-06-06T15:15:00.000Z'
 author: Ricky de Laveaga
 tags:
-  - ArtAct
-  - Xeo
-description: ArtAct.io is now powered by Xeo
+  - Updates
+description: ArtAct.io is now powered by Xeo.
 draft: false
 ---
 

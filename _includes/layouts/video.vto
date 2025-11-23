@@ -1,39 +1,123 @@
 ---
 layout: ./base.vto
+bodyClass: body-video
 ---
 
 <link rel="stylesheet" href="/lyt/lite-yt-embed.css">
 
-<main class="video">
-  <div class="video-info">
-    <header class="video-header">
-      <nav class="video-back">
-        <strong><a href="/videos/">← Back to videos</a></strong>
-      </nav>
-      <h1 class="video-title">
-        {{ title }}
-      </h1>
-    </header>
-  </div>
-  <figure>
-    <div class="fluid-width-video-wrapper">
-      <lite-youtube
-        videoid="{{ id }}"
-        style="background-image: url('https://i.ytimg.com/vi/{{ id }}/hqdefault.jpg')"
-      >
-        <a
-          href="https://youtube.com/watch?v={{ id }}"
-          class="lyt-playbtn"
-          title="Play Video"
-        >
-          <span class="lyt-visually-hidden">Play Video: {{ title }}</span>
-        </a>
-      </lite-youtube>
+<main class="{{ it.bodyClass }}">
+  <article
+    class="post video"
+    data-pagefind-body
+    data-title="{{ title }}"
+    data-pagefind-index-attrs="data-title"
+  >
+    <div class="video-info">
+      <header class="post-header video">
+        <nav class="video-back">
+          <strong><a href="/pages/videos/">← Back to videos</a></strong>
+        </nav>
+        <h1 class="post-title video">
+          {{ title }}
+        </h1>
+      </header>
     </div>
-    <figcaption class="video-description">
+    <figure>
+      <div class="fluid-width-video-wrapper">
+        <lite-youtube
+          videoid="{{ id }}"
+          style="background-image: url('https://i.ytimg.com/vi/{{ id }}/hqdefault.jpg')"
+        >
+          <a
+            href="https://youtube.com/watch?v={{ id }}"
+            class="lyt-playbtn"
+            title="Play Video"
+          >
+            <span class="lyt-visually-hidden">Play Video: {{ title }}</span>
+          </a>
+        </lite-youtube>
+      </div>
+      <figcaption class="video-description">
+        {{ caption }}
+      </figcaption>
+    </figure>
+
+    {{ if tags?.length }}
+      <p class="post-tags">
+        <span class="html-only">🏷️ </span>{{ for tag of tags }}
+          <a
+            data-pagefind-filter="filter"
+            class="badge"
+            href="/archive/{{ tag }}"
+          >{{ tag }}</a>
+        {{ /for }}
+      </p>
+    {{ /if }}
+
+    {{ if toc.length }}
+      <nav class="toc">
+        <h2>{{ i18n.nav.toc }}</h2>
+        <ol>
+          {{ for item of toc }}
+            <li>
+              <a href="#{{ item.slug }}">{{ item.text }}</a>
+
+              {{ if item.children.length }}
+                <ul>
+                  {{ for child of item.children }}
+                    <li>
+                      <a href="#{{ child.slug }}">{{ child.text }}</a>
+                    </li>
+                  {{ /for }}
+                </ul>
+              {{ /if }}
+            </li>
+          {{ /for }}
+        </ol>
+      </nav>
+    {{ /if }}
+
+    <div class="post-body body">
       {{ content }}
-    </figcaption>
-  </figure>
+    </div>
+
+    {{ if it.footnotes.length }}
+      <aside role="note" class="footnotes">
+        <dl>
+          {{ for note of footnotes }}
+            <div id="{{ note.id }}" class="footnote">
+              <dt><a href="#{{ note.refId }}">{{ note.label }}</a></dt>
+              <dd>{{ note.content }}</dd>
+            </div>
+          {{ /for }}
+        </dl>
+      </aside>
+    {{ /if }}
+  </article>
+
+  <nav class="page-pagination pagination">
+    <ul>
+      {{- set previousPost = search.previousPage(url, "type=post") }}
+      {{- if previousPost }}
+        <li class="pagination-prev">
+          <a href="{{ previousPost.url }}" rel="prev">
+            <span>{{ i18n.nav.previous_post }}</span>
+            <strong>{{ previousPost.title }}</strong>
+          </a>
+        </li>
+      {{ /if }}
+
+      {{- set nextPost = search.nextPage(url, "type=post") }}
+      {{- if nextPost }}
+        <li class="pagination-next">
+          <a href="{{ nextPost.url }}" rel="next">
+            <span>{{ i18n.nav.next_post }}</span>
+            <strong>{{ nextPost.title }}</strong>
+          </a>
+        </li>
+      {{ /if }}
+    </ul>
+  </nav>
 </main>
 
 <script defer src="/lyt/lite-yt-embed.js"></script>

@@ -1,0 +1,7 @@
+type: post
+category: video
+layout: layouts/video.vto
+
+metas:
+  title: "=title"
+  description: "=description"

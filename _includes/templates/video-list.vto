@@ -1,5 +1,5 @@
 <ul class="video-list">
-  {{ for video of search.pages("type=video index!=true", "order=desc") }}
+  {{ for video of search.pages("category=video index!=true", "order=desc") }}
     <li>
       <figure class="video">
         <div class="fluid-width-video-wrapper">
@@ -22,6 +22,17 @@
           <a href="{{ video.url }}" class="video-title">
             <h2 class="display">{{ video.title }}</h2>
           </a>
+          {{ if video.tags?.length }}
+            <p class="post-tags">
+              <span class="html-only">🏷️ </span>{{ for tag of video.tags }}
+                <a
+                  data-pagefind-filter="filter"
+                  class="badge"
+                  href="/archive/{{ tag }}"
+                >{{ tag }}</a>
+              {{ /for }}
+            </p>
+          {{ /if }}
           {{ video.content |> md }}
         </figcaption>
       </figure>

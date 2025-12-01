@@ -1,0 +1,3 @@
+/videos/ /pages/videos/
+/videos/index.html /pages/videos/
+/video/*  /videos/:splat

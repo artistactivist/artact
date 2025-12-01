@@ -1,4 +1,5 @@
 import lume from "lume/mod.ts";
+import redirects from "lume/plugins/redirects.ts";
 import xeo from "xeo/mod.ts";
 
 const site = lume();
@@ -17,6 +18,10 @@ site
       lightness: 84, // 64-72
       darker: 0, // 0-12
     },
+  }))
+  .add("_redirects")
+  .use(redirects({
+    output: "netlify",
   }))
   .add("img")
   .add("lyt")

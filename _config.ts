@@ -25,6 +25,14 @@ site
   }))
   .add("img")
   .add("lyt")
-  .add("artact.css");
+  .add("artact.css")
+  .add(
+    "https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.4/src/lite-yt-embed.min.js",
+    "lyt/lite-yt-embed.js",
+  )
+  .add(
+    "https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.4/src/lite-yt-embed.min.css",
+    "lyt/lite-yt-embed.css",
+  );
 
 export default site;

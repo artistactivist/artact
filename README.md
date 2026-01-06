@@ -8,5 +8,6 @@ theme by [Ricky de Laveaga’s](https://rdela.com) &
 
 - Link to announcement post:
   [artact.io/artact-xeo](https://artact.io/artact-xeo/)
+
 - Source file for post:
   [posts/artact-xeo.md](https://github.com/artistactivist/artact/blob/trunk/posts/artact-xeo.md)

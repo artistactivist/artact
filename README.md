@@ -1,9 +1,12 @@
-# [Hello ArtAct.io 🧊](https://artact.io/artact-xeo/) <small>([source](https://github.com/artistactivist/artact/blob/trunk/posts/artact-xeo.md))</small>
+# [Hello ArtAct.io 🧊](https://artact.io/artact-xeo/)
 
-Welcome to the new **Artist Activist** site powered by
+Welcome to the new **[Artist Activist](https://artact.io)** site powered by
 [**Xeo**](https://lume.land/theme/xeo/), a deluxe [**Lume**](https://lume.land/)
 theme by [Ricky de Laveaga’s](https://rdela.com) &
 [Óscar Otero](https://oscarotero.com/). Xeo began as a variant of Óscar’s
 [Simple Blog](https://lume.land/theme/simple-blog/) theme.
 
-Artist Activist https://artact.io
+- Link to announcement post:
+  [artact.io/artact-xeo](https://artact.io/artact-xeo/)
+- Source file for post:
+  [posts/artact-xeo.md](https://github.com/artistactivist/artact/blob/trunk/posts/artact-xeo.md)

@@ -27,11 +27,11 @@ site
   .add("lyt")
   .add("artact.css")
   .add(
-    "https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.4/src/lite-yt-embed.min.js",
+    "https://cdn.jsdelivr.net/npm/lite-youtube-embed/src/lite-yt-embed.min.js",
     "lyt/lite-yt-embed.js",
   )
   .add(
-    "https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.4/src/lite-yt-embed.min.css",
+    "https://cdn.jsdelivr.net/npm/lite-youtube-embed/src/lite-yt-embed.min.css",
     "lyt/lite-yt-embed.css",
   );
 

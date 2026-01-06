@@ -2,7 +2,7 @@
 
 Welcome to the new **[Artist Activist](https://artact.io)** site powered by
 [**Xeo**](https://lume.land/theme/xeo/), a deluxe [**Lume**](https://lume.land/)
-theme by [Ricky de Laveaga’s](https://rdela.com) &
+theme by [Ricky de Laveaga](https://rdela.com) &
 [Óscar Otero](https://oscarotero.com/). Xeo began as a variant of Óscar’s
 [Simple Blog](https://lume.land/theme/simple-blog/) theme.
 

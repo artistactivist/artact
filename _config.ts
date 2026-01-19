@@ -23,9 +23,9 @@ site
   .use(redirects({
     output: "netlify",
   }))
+  .add("artact.css")
   .add("img")
   .add("lyt")
-  .add("artact.css")
   .add(
     "https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.4/src/lite-yt-embed.min.js",
     "lyt/lite-yt-embed.js",

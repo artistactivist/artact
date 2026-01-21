@@ -2,20 +2,27 @@ lang: en
 home:
   welcome: "Artist Activist"
   intro: "A creative studio advocating for positive&nbsp;change"
+  posts: 2
   posts_title: "Latest Updates"
+
+archives:
+  posts: 12
+  tag: 12
+  author: 12
+  basename: updates
 
 copyright: "&copy; 2021-2025 Artist Activist LLC"
 
-logo: /img/artist-activist-sq-trans.svg
-logo_height: 48
-og_img: https://artact.io/img/artist-activist-3840x1920.png
+logo:
+  svg: /img/artist-activist-sq-trans.svg
+  height: 48
 
 menu_links: []
 metas:
   site: Artist Activist
   description: Creative studio advocating for positive change
   title: =title
-  image: =image
+  image: =image || /img/artist-activist-3840x1920.png
   lang: en
   fediverse: "@artact@mastodon.social"
   generator: true

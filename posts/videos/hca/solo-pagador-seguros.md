@@ -3,11 +3,11 @@ title: Atención médica de un solo pagador Seguros - Health Care for All - Cali
 date: "2023-02-21T15:18:00.000Z"
 order: 23
 id: dg82Tpz9Cso
-description: "This video counters insurance companies bogus claim that Americans prefer private insurance plans: Atención médica de un solo pagador significa que no habrá más interferencias de las compañías de seguros en nuestra sanidad."
+description: "This video counters insurance companies’ bogus claim that Americans prefer private insurance plans: Atención médica de un solo pagador significa que no habrá más interferencias de las compañías de seguros en nuestra sanidad."
 ---
 
 For <a href="https://healthcareforall.org/">Health Care for All -
-California</a>, this video counters insurance companies bogus claim that
+California</a>, this video counters insurance companies’ bogus claim that
 Americans prefer private insurance plans: Atención médica de un solo pagador
 significa que no habrá más interferencias de las compañías de seguros en nuestra
 sanidad. Visite

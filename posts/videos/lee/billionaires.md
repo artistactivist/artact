@@ -3,6 +3,7 @@ title: Billionaires - Daniel Lee for SD30
 date: "2021-03-01T21:31:00.000Z"
 order: 2
 id: z_DQg3sPNuQ
+description: Uses humor to explain why California State Senate District 30 candidate Daniel Lee’s platform of healthcare for all, real climate change legislation, and keeping people in their homes frustrates billionaires who depend on corrupt politicians.
 ---
 
 Made on a shoestring budget for Daniel Lee’s campaign for California State

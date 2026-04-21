@@ -1,14 +1,14 @@
 ---
 title: Who Is and Isn’t “Legal”
-date: '2025-06-15T20:15:00.000Z'
+date: "2025-06-15T20:15:00.000Z"
 author: Cliff Tasner
 tags:
   - ICE
   - Immigration
   - Law
   - Trump
+  - Articles
 description: Thinking about immigration in the wake of the repressive ICE raids
-draft: false
 ---
 
 There has been a strong nativist streak in the United States for much of our

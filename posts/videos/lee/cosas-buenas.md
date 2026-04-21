@@ -3,6 +3,7 @@ title: Cosas Buenas (Nice Things) - Daniel Lee for SD30
 date: "2021-03-02T09:08:00.000Z"
 order: 3
 id: XMKUyrShEs0
+description: Highlights California State Senate District 30 candidate Daniel Lee’s commitment to fight for healthcare for all, real climate change legislation, and to keep people in their homes.
 ---
 
 Made on a shoestring budget for Daniel Lee’s campaign for California State

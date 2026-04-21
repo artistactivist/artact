@@ -1,11 +1,10 @@
 ---
 title: Hello ArtAct.io 🧊
-date: '2025-06-06T15:15:00.000Z'
+date: "2025-06-06T15:15:00.000Z"
 author: Ricky de Laveaga
 tags:
-  - Updates
+  - Articles
 description: ArtAct.io is now powered by Xeo.
-draft: false
 ---
 
 Our website just got a whole lot cooler, thanks to open&nbsp;source&nbsp;📖

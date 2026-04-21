@@ -1,8 +1,8 @@
 ---
-title: The Middleman - California Nurses Association
-date: "2019-03-01T10:48:00.000Z"
-order: 21
-id: DNum9EY4YlE
+title: Piece of Legislation - California Nurses Association
+date: "2019-03-01T10:24:00.000Z"
+order: 20
+id: u3ujozCDaws
 description: Part of a series of Schoolhouse-Rock-style animated videos explaining about a Medicare for All healthcare bill that California Nurses Association were supporting.
 ---
 

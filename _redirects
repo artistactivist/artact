@@ -8,3 +8,6 @@ https://artact.netlify.app/*	https://artact.io/:splat	301!
 
 # Renamed archive to updates
 /archive/*  /updates/:splat
+
+# Renamed updates tag to articles
+/updates/updates/ /updates/articles/

@@ -1,8 +1,9 @@
 ---
 title: Atención médica de un solo pagador Beneficios - Health Care for All - California
 date: "2022-07-19T08:16:00.000Z"
-order: 19
+order: 27
 id: NG-BFaNuH6k
+description: "This video explains the benefits Single Payer will have to seniors: Atención médica de un solo pagador proporciona beneficios aún más completos que Medicare, y mejorará el acceso y reducirá los costos al reunir los fondos estatales y federales."
 ---
 
 For <a href="https://healthcareforall.org/">Health Care for All -
@@ -13,5 +14,5 @@ fondos estatales y federales. Visite
 <a href="https://atencionmedicaparatodos.org">atencionmedicaparatodos.org</a>
 para saber más y unirse al movimiento. Directed by Hector Ceballos, Written by
 Clifford J. Tasner, Produced by Clifford J. Tasner and Ricky de Laveaga,
-Cinematography by Vincent Toto, Edited by Ricky de Laveaga, Music by Clifford
-J.&nbsp;Tasner
+Cinematography by Vincent Toto, Edited by Ricky de Laveaga, Music by
+Clifford&nbsp;J.&nbsp;Tasner

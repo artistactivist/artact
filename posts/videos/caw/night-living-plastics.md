@@ -1,12 +1,13 @@
 ---
 title: Night of the Living Plastics - Californians Against Waste
 date: "2019-05-29T15:44:00.000Z"
-order: 8
+order: 15
 id: uNPc0PUHYlo
 featured: true
 tags:
   - CAW
   - Environment
+description: The mountain of discarded, single-use plastic items we leave behind comes back to life as zombie trash to haunt our dreams and inspire us to adopt more sustainable, reusable solutions.
 ---
 
 The mountain of discarded, single-use plastic items we leave behind comes back
